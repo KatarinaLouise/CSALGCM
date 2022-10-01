@@ -10,7 +10,6 @@ def check_a(d, s):
         a = low + (high - low) / 2
         rhs = a + s
         lhs = a * math.cosh(d / (2 * a))
-        print("rhs: ", rhs, " lhs: ", lhs)
 
         if rhs >= lhs:
             high = a
